@@ -14,7 +14,7 @@ Minimum version required to store current data is: `+n+`.
       <h1>Generador de QRs</h1>
     </div>
 
-    <input class="input" type="text" id="input" placeholder="Escribe algo">
+    <textarea class="input" id="input" placeholder="Escribe algo"></textarea>
 
     <div class="card" id="output" >
     </div>
