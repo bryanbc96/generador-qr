@@ -24,4 +24,4 @@ Minimum version required to store current data is: `+n+`.
     </div>
       
   </div>
-`;const Ut=()=>{const e=Ft.split(" ").filter(t=>t);V("output").innerHTML="",e.forEach(t=>{const i=document.createElement("canvas");K.toCanvas(i,t,{width:D}),V("output").appendChild(i)})};V("size").addEventListener("input",e=>{const t=parseInt(e.target.value);t>ut?(D=ut,V("size").value=D.toString()):t<ct?D=ct:D=t,Ut()});V("input").addEventListener("input",e=>{e.target&&e.target.value&&(Ft=e.target.value,Ut())});
+`;const Ut=()=>{const e=Ft.split(/\s/g).filter(t=>t);V("output").innerHTML="",e.forEach(t=>{const i=document.createElement("canvas");K.toCanvas(i,t,{width:D}),V("output").appendChild(i)})};V("size").addEventListener("input",e=>{const t=parseInt(e.target.value);t>ut?(D=ut,V("size").value=D.toString()):t<ct?D=ct:D=t,Ut()});V("input").addEventListener("input",e=>{e.target&&e.target.value&&(Ft=e.target.value,Ut())});
