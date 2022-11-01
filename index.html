@@ -1,16 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Generador QR</title>
-    <script type="module" crossorigin src="/generador-qr/assets/index.4dceca72.js"></script>
-    <link rel="stylesheet" href="/generador-qr/assets/index.a2a399dc.css">
-  </head>
-  <body>
-    <div id="app"></div>
-    
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- HTML Meta Tags -->
+  <title>Generador QR</title>
+  <meta name="description" content="Generador de QRs en masa para pruebas">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://maxterjunior.github.io/generador-qr/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Generador QR">
+  <meta property="og:description" content="Generador de QRs en masa para pruebas">
+  <meta property="og:image"
+    content="https://thumbnails.production.thenounproject.com/Wp-JP-vTbJSRpl6HNmNAC6R_eOw=/fit-in/1000x1000/photos.production.thenounproject.com/photos/097E9452-720E-4D6B-A16C-2DD61E816A95.jpg">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="maxterjunior.github.io">
+  <meta property="twitter:url" content="https://maxterjunior.github.io/generador-qr/">
+  <meta name="twitter:title" content="Generador QR">
+  <meta name="twitter:description" content="Generador de QRs en masa para pruebas">
+  <meta name="twitter:image"
+    content="https://thumbnails.production.thenounproject.com/Wp-JP-vTbJSRpl6HNmNAC6R_eOw=/fit-in/1000x1000/photos.production.thenounproject.com/photos/097E9452-720E-4D6B-A16C-2DD61E816A95.jpg">
+
+  <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+  <script type="module" crossorigin src="/generador-qr/assets/index.3cbb3a6e.js"></script>
+  <link rel="stylesheet" href="/generador-qr/assets/index.a2a399dc.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="header">
+      <h1>Generador de QRs</h1>
+    </div>
+
+    <textarea class="input" id="input" placeholder="Escribe algo"></textarea>
+
+    <div class="card" id="output" >
+    </div>
+
+    <div class="footer">
+    <input id="size" placeholder="Tamaño" type="number"> <p>❤ por <a href="https://github.com/maxterjunior">Mj.asm</a></p>
+    </div>
+  </div>
+  
+</body>
+
 </html>
